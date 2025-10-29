@@ -7,4 +7,43 @@ html {
 /* khôi phục lại cỡ chữ mặc định theo rem */
 body {
   font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+}
+/* ========header======== */
+.hearder-box {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 64px;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover {
+  color: black;
+  font-weight: 600;
+}
+.title .title-btn {
+  margin-right: 39px;
+}
+.btn .btn-Sign {
+  margin-right: 48px;
+}
+.title .title-btn {
+  color: #2f3a3b;
+  font-size: 1.6rem;
+}
+.btn-Sign {
+  color: #494949;
+  font-size: 1.6rem;
+}
+.btn-Sign.Signup {
+  padding: 12px 20px;
+  border-radius: 6px;
+  border: 1px solid #1ebfc1;
+  color: #1ebfc1;
+}
+.btn-Sign.Signup:hover {
+  border: 2px solid #1ebfc1;
 }
